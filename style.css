@@ -53,4 +53,16 @@
     background-color:rgb(100, 126, 165);
 }
 .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.projects div {
+    background-color: aliceblue;
+}
+.right-hand {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.right-hand div {
+    background-color: aliceblue;
 }
