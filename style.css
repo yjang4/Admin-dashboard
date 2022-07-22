@@ -158,6 +158,12 @@ a {
     gap: 10px;
     
 }
-.announcements div {
-    border-bottom: #dcfce7;
+.info {
+    padding-bottom: 10px;
+}
+.info .desc{
+    border-width: 0px;
+    border-bottom-width: 10px;
+    border-color: var(--green6);
+    border-style: solid;
 }
